@@ -13,7 +13,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 if __name__ == "__main__":
     # pytest.main(["--html=Report/report.html"])
-    pytest.main(["testcases/denglu.py ", "--html=testoutput/report.html"])
+    pytest.main(["testcases/denglu.py", "--html=testoutput/report.html"])
 
 
 
